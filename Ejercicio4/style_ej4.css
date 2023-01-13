@@ -1,0 +1,21 @@
+#elemento-1 {
+    font-size: 2rem;
+}
+
+#elemento-1, #super-1 {
+    color: red;
+}
+
+#lista{
+    padding: 10;
+    margin: 10;
+    border: 10;
+    background-color: burlywood;
+}
+
+#super {
+    padding: 10;
+    margin: 10;
+    border: 10;
+    background-color: burlywood;
+}
