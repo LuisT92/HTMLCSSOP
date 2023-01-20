@@ -1,0 +1,30 @@
+html{
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.b1::before{
+    content: "Pasa por encima";
+}
+.b1:hover::before{
+    content: "Hecho!";
+    color: white;
+    background-color: green;
+}
