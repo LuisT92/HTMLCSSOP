@@ -1,0 +1,74 @@
+.uno{
+    border: none;
+    border-bottom: 1px solid rgb(207, 202, 202);
+    outline: none;
+    padding: 5px;
+    color: #000;
+}
+.uno:focus{
+    border-bottom: rgb(0, 0, 0) 1px solid;
+}
+.uno::placeholder{
+    color: rgb(68, 61, 61);
+}
+
+.dos{
+    border: none;
+    background: rgb(135, 196, 247);
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    color: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.dos::placeholder{
+    color: rgb(72, 131, 141);
+}
+
+.lupa{
+    padding: 10px;
+    padding-left: 50px;
+    background: rgb(176, 200, 219);
+    box-shadow: 0, 0, 10px rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 10px;
+    background-image: url(/Ejercicio7/Formularios/IMG/searchmagnifierinterfacesymbol1_79893.png);/*Buscar iconos pequeños*/
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+
+textarea{
+    border: none;
+    border-bottom: 1px solid rgb(207, 202, 202);
+    outline: none;
+    padding: 5px;
+    color: #000;
+    resize: horizontal;
+}
+
+.opciones{
+    border: none;
+    border-bottom: 1px solid rgb(207, 202, 202);
+    outline: none;
+    padding: 5px;
+    color: #000;
+    background: rgb(135, 196, 247);
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    color: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+select{
+    border: none;
+    border-bottom: 1px solid rgb(207, 202, 202);
+    outline: none;
+    padding: 5px;
+    color: #000;
+    background: rgb(135, 196, 247);
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    color: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
