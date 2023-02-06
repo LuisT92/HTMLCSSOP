@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Elementos de Interés en Bootstrap</title>
+</head>
+<body>
+    <div class="h-100 p-5 text-bg-dark rounded-3">
+        <h2>Hola Estoy aprendiendo a usar Bootstrap</h2>
+        <p>Esto es un Jumbotron</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Lanza el modal
+        </button>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Esto es un Modal</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            Este elemento es un modal, es un elemento que se puede usar para 
+            mostrar información importante o para solicitar información al usuario.
+            <b>Al ser un ejemplo ambos botones cierran el modal.</b>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Perfecto!</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <!-- Formulario -->
+    <div class="container" style="border: 2rem; background-color: rgb(12, 121, 121); margin-top: 1rem;">
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="name" class="form-control" id="nombre" aria-describedby="name">
+            </div>
+            <div class="mb-3">
+                <label for="tel" class="form-label">Telefono</label>
+                <input type="tel" class="form-control" id="tel">
+            </div>
+            <div class="input-group">
+                <label for="tel" class="form-label">Deja tu mensaje</label>
+                <textarea class="form-control" aria-label="mensaje"></textarea>
+            </div>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mensajeEnviar">Enviar</button>
+        </form>
+    </div>
+    <!-- modalFormulario -->
+    <div class="modal fade" id="mensajeEnviar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Hola</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            El boton no hace nada aun, aunque coloques tus datos no servira
+            <b>No se va a enviar absolutamente nada aunque te enojes</b>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Esto es un robo!</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- modalFormulario -->
+    <!-- Formulario -->
+    <!-- Cards -->
+    <div class="card border-info mb-3" style=" margin:auto; max-width: 18rem; margin-top: 1rem;">
+        <div class="card-header bg-transparent border-success text-info">Luis Humberto Torres Escogido</div>
+        <div class="card-body text-info">
+            <h5 class="card-title">Developer</h5>
+            <p class="card-text">Estudie en la Universidad Iberoamericana el TSU en desarrollo de software, llevo trabajando como desarrollador Backend casi 1 año, y hoy trato de refinar mis conocimentos en el frontend para convertirme en developer Fullstack</p>
+        </div>
+        <div class="card-footer bg-transparent border-success text-danger">Email: luis_acc92@hotmail.com</div>
+    </div>
+    <!-- Cards -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
