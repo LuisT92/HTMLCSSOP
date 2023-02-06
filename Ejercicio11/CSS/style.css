@@ -1,0 +1,30 @@
+.row div{
+    margin: 0.25rem;
+    padding: 0.25rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.col {
+    background-color: aqua;
+}
+
+.col-sm {
+    background-color: rgb(148, 184, 20);
+}
+
+.col-md {
+    background-color: rgb(59, 73, 197);
+}
+
+.col-lg {
+    background-color: rgb(168, 35, 91);
+}
+
+.col-xl {
+    background-color: rgb(124, 148, 192);
+}
+
+.col {
+    background-color: aqua;
+}
