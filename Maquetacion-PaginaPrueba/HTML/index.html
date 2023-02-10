@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>PaginaPrueba</title>
+</head>
+<body>
+    <div class="container-head">
+        <button class="btn-inicio">Inicio</button>
+        <button class="btn-gen-proyecto">Proyectos</button>
+        <button class="btn-gen-habilidades">Habilidades</button>
+        <button class="btn-gen-contacto">Contacto</button>
+    </div>
+    <div class="presentacion">
+        <div class="nombre">
+            <h4>Hola, mi nombre es:</h4>
+            <h1><i class="bi bi-window"></i> Luis <i class="bi bi-terminal"></i></h1>
+            <h5><i class="bi bi-code"></i> Fullstack Developer <i class="bi bi-code-slash"></i></h5>
+        </div>
+        <!--- <div class="imagen">
+            <img src="/Maquetacion-PaginaPrueba/assets/img/laptop.jpg" alt="1024px" widht="500px"> 
+        </div> --->
+    </div>
+    <div class="titulo1">
+        <h4>Formacion</h4>
+    </div>
+    <div class="Formacion">
+        <div class="escuela-ibero">
+            <h5>Universidad Iberoamericana</h5>
+            <p>
+                <img class="logo img-thumbnail" data-bs-toggle="collapse" href="#TSU" 
+                role="button" aria-expanded="false" aria-controls="TSU"
+                src="/Maquetacion-PaginaPrueba/assets/img/logoiberoescudo.jpg">
+            </p>
+            <div class="collapse" id="TSU">
+                <div class="card card-body">
+                TSU en Desarrollo de Software
+                </div>
+            </div>
+        </div>
+        <div class="escuela-IPN">
+            <h5>Escuela Superior de Economia-IPN</h5>
+            <p>
+                <img class="logo img-thumbnail" data-bs-toggle="collapse" href="#IPN" 
+                role="button" aria-expanded="false" aria-controls="IPN"
+                src="/Maquetacion-PaginaPrueba/assets/img/ipn.png">
+            </p>
+            <div class="collapse" id="IPN">
+                <div class="card card-body">
+                Licenciatura en Economia (Trunco 9no semestre)
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tit-cont">
+        <h1>Experiencia</h1>
+    </div>
+    <div class="experiencia">
+        <section>
+            <img data-bs-toggle="collapse" href="#BBVA" 
+            role="button" aria-expanded="false" aria-controls="BBVA" 
+            src="/Maquetacion-PaginaPrueba/assets/img/logo-bbva.jpg" alt="">
+            <img data-bs-toggle="collapse" href="#softtek" 
+            role="button" aria-expanded="false" aria-controls="softtek" 
+            src="/Maquetacion-PaginaPrueba/assets/img/soft.png" alt="">
+            <img data-bs-toggle="collapse" href="#Cloud" 
+            role="button" aria-expanded="false" aria-controls="Cloud" 
+            src="/Maquetacion-PaginaPrueba/assets/img/cloud.jpeg" alt="">
+            <img data-bs-toggle="collapse" href="#Scotia" 
+            role="button" aria-expanded="false" aria-controls="Scotia" 
+            src="/Maquetacion-PaginaPrueba/assets/img/scotiabank.svg" alt="">
+        </section>
+        <div class="collapse" id="BBVA">
+            <div class="card card-body">
+            <p>SOFTWARE ASSOCIATE SOLUTIONS DEVELOPMENT II A MX 13</p>
+            <p>julio 2022-actual</p>
+            <p>Desarrollar soluciones para el area de ATM’s</p>
+            <button class="btn-prim" data-bs-toggle="collapse" href="#BBVA" 
+            role="button" aria-expanded="true" aria-controls="BBVA">Cerrar</button>
+            </div>
+        </div>
+        <div class="collapse" id="softtek">
+            <div class="card card-body">
+                <p>Software Engineer</p>
+                <p>Mayo 2022-julio 2022</p>
+                <p>Desarrollo de software para clientes, asignado a BBVA en el area de ATM’s.</p>
+                <button class="btn-prim" data-bs-toggle="collapse" href="#softtek" 
+                role="button" aria-expanded="true" aria-controls="softtek">Cerrar</button>
+            </div>
+        </div>
+        <div class="collapse" id="Cloud">
+            <div class="card card-body">
+                <p>Consultor Java Jr|</p>
+                <p>febrero 2022-Myo 2022</p>
+                <p>DServicios de integración en webMethods y Mantenimiento de módulos.</p>
+                <button class="btn-prim" data-bs-toggle="collapse" href="#Cloud" 
+                role="button" aria-expanded="true" aria-controls="Cloud">Cerrar</button>
+            </div>
+        </div>
+        <div class="collapse" id="Scotia">
+            <div class="card card-body">
+                <p>EJECUTIVO Crédito SIC B</p>
+                <p>enero 2019-febrero 2022</p>
+                <p>Revisión de solicitudes capturadas en sistema contra solicitud llenada por el cliente</p>
+                <p>Determinación de monto a financiar para Auto, Hipotecario</p>
+                <p>línea de crédito máxima (TDC, Préstamos personales o Línea revolvente)</p>
+                <p>EJECUTIVO MESA DE CONTROL SIC JR</p>
+                <p>diciembre 2017-enero 2019</p>
+                <p>Validación de solicitudes de crédito al menudeo para su potencial asignación a clientes solicitantes</p>
+                <button class="btn-prim" data-bs-toggle="collapse" href="#Scotia" 
+                role="button" aria-expanded="true" aria-controls="Scotia">Cerrar</button>
+            </div>
+        </div>
+    </div>
+    <div class="proy-tit">Proyectos</div>
+    <div class="tit-cont">
+        <h1>Contacto</h1>
+    </div>
+    <div class="contacto">
+            <div class="redes">
+                <div class="github">
+                    <a href="https://github.com/LuisT92" target="_blank">
+                        <i class="bi bi-github"></i>
+                </div>
+                <div class="link">
+                    <a href="https://www.linkedin.com/in/luist92/" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </div>
+            </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+crossorigin="anonymous">
+</script>
+</html>
